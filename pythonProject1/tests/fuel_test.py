@@ -1,6 +1,8 @@
 import unittest
 from basics.functions import calculate_fuel
 
+
+
 class MyTestCase(unittest.TestCase):
     def test_mass_12(self):
         self.assertEqual(2, calculate_fuel(12))

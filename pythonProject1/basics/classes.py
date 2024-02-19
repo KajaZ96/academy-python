@@ -68,7 +68,7 @@ class Student(Person):
 
 
 
-andrzej = Student("Andrzej", "Testowy", 1999, [1, 1])
+# andrzej = Student("Andrzej", "Testowy", 1999, [1, 1])
 # andrzej.add_grade(5)
 # andrzej.add_grade(4)
 # print(andrzej.calculate_average())
@@ -85,6 +85,5 @@ andrzej = Student("Andrzej", "Testowy", 1999, [1, 1])
 # jan.print_full_name()
 # jan.get_age()
 # print(jan.get_age())
-
 
 
