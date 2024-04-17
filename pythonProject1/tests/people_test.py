@@ -2,6 +2,7 @@ import unittest
 
 from basics.classes import Student
 class AdditionTest(unittest.TestCase):
+
     def setUp(self) -> None:
         self.student = Student("Jan", "Jan", 1999, [2, 2])
 
